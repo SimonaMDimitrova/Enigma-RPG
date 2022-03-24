@@ -1,0 +1,91 @@
+<ul class="linklist">
+    <!-- BEGIN switch_user_logged_in -->
+    <li><a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a>&nbsp;&bull;&nbsp;</li>
+    <li><a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a>&nbsp;&bull;&nbsp;</li>
+    <!-- END switch_user_logged_in -->
+    <li><a href="{U_SEARCH_UNANSWERED}">{L_SEARCH_UNANSWERED}</a></li>
+    <!-- BEGIN switch_user_logged_in -->
+    <li class="rightside"><a href="{U_MARK_READ}" accesskey="m">{L_MARK_FORUMS_READ}</a></li>
+    <!-- END switch_user_logged_in -->
+</ul>
+
+<!-- BEGIN catrow -->
+<!-- BEGIN tablehead -->
+<div class="foract">
+    <div class="inner"><span class="corners-top"><span></span></span>
+        <ul class="topiclist">
+            <li class="header">
+                <dl class="icon">
+                    <dd class="dterm">
+                        <div class="category-title">{catrow.tablehead.L_FORUM}</div>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="topiclist forums">
+            <!-- END tablehead -->
+
+            <!-- BEGIN forumrow -->
+            <li class="row forum-wrapper">
+                <dl class="single-forum">
+                    <dd style="height: 34px;">
+                        <div>
+                            <h{catrow.forumrow.LEVEL} class="hierarchy forum-title-wrapper">
+                                <a href="{catrow.forumrow.U_VIEWFORUM}"
+                                    class="forum-title">{catrow.forumrow.FORUM_NAME}</a>
+                            </h{catrow.forumrow.LEVEL}>
+                            <br />
+                            <div class="forum-description">{catrow.forumrow.FORUM_DESC}</div>
+                            <div class="forum-subforums"><strong>{forumrow.L_SUBFORUM_STR}</strong> {forumrow.SUBFORUMS}
+                            </div>
+                        </div>
+                    </dd>
+                    <dd class="info-wrapper">
+                        <div class="topics-count">
+                            <p>{catrow.forumrow.TOPICS} <dfn>{L_TOPICS}</dfn> <span>topics</span></p>
+                        </div>
+                        <div class="posts-count">
+                            <p>{catrow.forumrow.POSTS} <dfn>{L_POSTS}</dfn> <span>posts</span></p>
+                        </div>
+                    </dd>
+                    <dd class="lastpost-wrapper">
+
+                        <!-- BEGIN avatar -->
+                        <span class="lastpost-avatar">
+                            <div class="lastpost-avatar-wrapper">{catrow.forumrow.avatar.LAST_POST_AVATAR}</div>
+                        </span>
+                        <!-- END avatar -->
+
+                        <span class="last-topic-title">
+                            <!-- BEGIN switch_topic_title -->
+                            <a href="{catrow.forumrow.U_LATEST_TOPIC}"
+                                title="{catrow.forumrow.LATEST_TOPIC_TITLE}">{catrow.forumrow.LATEST_TOPIC_NAME}</a>
+                            <!-- END switch_topic_title -->
+                            <span> On {catrow.forumrow.USER_LAST_POST}</span>
+                        </span>
+                        <div class="forum-links">{catrow.forumrow.L_LINKS}{catrow.forumrow.LINKS}</div>
+                    </dd>
+                </dl>
+            </li>
+            <!-- END forumrow -->
+
+            <!-- BEGIN tablefoot -->
+        </ul>
+
+        <span class="corners-bottom"><span></span></span>
+    </div>
+</div>
+<!-- END tablefoot -->
+<!-- END catrow -->
+
+<!-- BEGIN switch_on_index -->
+<ul class="linklist">
+    <li><a href="{U_TODAY_ACTIVE}">{L_TODAY_ACTIVE}</a>&nbsp;&bull;&nbsp;</li>
+    <li><a href="{U_TODAY_POSTERS}">{L_TODAY_POSTERS}</a>&nbsp;&bull;&nbsp;</li>
+    <li class="last"><a href="{U_OVERALL_POSTERS}">{L_OVERALL_POSTERS}</a></li>
+    <!-- BEGIN switch_delete_cookies -->
+    <li class="rightside"><a href="{switch_on_index.switch_delete_cookies.U_DELETE_COOKIES}"
+            rel="nofollow">{switch_on_index.switch_delete_cookies.L_DELETE_COOKIES}</a></li>
+    <!-- END switch_delete_cookies -->
+</ul>
+<!-- END switch_on_index -->
