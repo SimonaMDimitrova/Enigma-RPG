@@ -1,0 +1,220 @@
+.important-messages-container {
+    padding: 8px;
+    height: 225px;
+    overflow: auto;
+}
+
+.important-message {
+    background: #232323;
+    padding: 8px;
+}
+
+.important-message-title {
+    padding: 8px;
+    text-align: right;
+    background: #2c5b77;
+    margin-top: -6px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+#important-quickpreview {
+    display: none;
+}
+
+.important-header {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #c6c6c6;
+    text-transform: uppercase;
+}
+
+.important-welcome-info-box,
+.chests-box,
+.importants-welcome-box {
+    border-top: 2px solid #c6c6c6;
+    border-bottom: 4px solid #2b5a75;
+}
+
+.chests-box {
+    display: flex;
+    justify-content: center;
+}
+
+.chest-box {
+    flex: 1 1 0;
+    text-align: center;
+    background: #232323;
+    border-radius: 4%;
+    margin: 8px 4px;
+    padding: 0 20px 11px 20px;
+}
+
+.chest-name-header {
+    margin-bottom: 8px;
+    font-size: 12.5px;
+}
+
+.chest-box:first-child {
+    margin-left: 4px;
+}
+
+.chest-box:last-child {
+    margin-right: 4px;
+}
+
+.chest-image {
+    width: 100px;
+}
+
+.chest-points,
+.chest-diamonds,
+.chest-inner-points,
+.chest-inner-diamonds {
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+}
+
+.chest-value .chest-points,
+.chest-value .chest-diamonds,
+.chest-inner-points,
+.chest-inner-diamonds {
+    display: inline-block;
+}
+
+.chest-inner-diamonds {
+    margin-left: 48px;
+}
+
+.chest-points::before {
+    background: url(https://raw.github.com/cosmoscoin/cosmoscoin/master/src/qt/res/icons/cosmoscoin.png) no-repeat center center/cover;
+    content: '';
+    height: 20px;
+    left: 42px;
+    position: absolute;
+    top: 1.5px;
+    width: 20px;
+    z-index: 999;
+}
+
+.chest-inner-points::before {
+    background: url(https://raw.github.com/cosmoscoin/cosmoscoin/master/src/qt/res/icons/cosmoscoin.png) no-repeat center center/cover;
+    content: '';
+    height: 20px;
+    position: absolute;
+    top: 1.5px;
+    width: 20px;
+    z-index: 999;
+    right: 38px;
+}
+
+@media (max-width: 1200px) {
+    .chest-points::before {
+        left: 22px;
+    }
+}
+
+.chest-inner-diamonds::before {
+    background: url(https://www.pngarts.com/files/2/Emerald-PNG-Pic.png) no-repeat center center/cover;
+    content: '';
+    height: 20px;
+    position: absolute;
+    top: 1.5px;
+    width: 27px;
+    z-index: 999;
+    right: 16px;
+}
+
+.chest-points,
+.chest-value {
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+.important-welcome-subheader {
+    text-align: center;
+}
+
+.important-link {
+    background: #c6c6c6;
+    color: #105289;
+    border-bottom: 4px solid #c6c6c6;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 7px 5px 3px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2px 4px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    transition: all 2s;
+}
+
+.important-link:hover {
+    border-bottom: 4px solid #105289;
+}
+
+.important-link a {
+    color: #105289;
+}
+
+.important-link a:hover {
+    color: #105289;
+}
+
+.quick-links-article {
+    margin-top: 20px;
+    width: 400px;
+    display: table-cell;
+    position: relative;
+    bottom: 7px;
+}
+
+.important-welcome-article {
+    width: 400px;
+    display: table-cell;
+}
+
+.important-staff-image {
+    width: 120px;
+}
+
+.important-message-desc {
+    padding: 8px;
+    border: 1px solid #2b5a75;
+    margin: 4px;
+    height: 224px;
+}
+
+.important-staff-connection {
+    display: inline-block;
+    margin: 27px 6px 6px 50px;
+}
+
+.image-staff-container {
+    height: 120px;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+    width: 120px;
+    border-radius: 100%;
+    border: 2px solid #2b5a75;
+}
+
+.important-staff-name {
+    margin: 10px auto 15px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background: #2b5a75;
+    width: 120px;
+    padding: 3px 0;
+}

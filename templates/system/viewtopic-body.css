@@ -1,0 +1,110 @@
+.postbody-inner {
+    background: #242424;
+}
+
+.fa_like_div {
+    margin-left: 12px!important;
+    width: 76%!important;
+    position: relative!important;
+    bottom: 20px!important;
+}
+
+.postprofile>dl>dd>span {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#profile12>dl>dd:last-child {
+    text-align: center;
+}
+
+.postprofile dl dd img {
+    width: 25px;
+    height: 25px;
+}
+
+.postprofile>dl>dt>a>img {
+    max-width: 191px!important;
+}
+
+.postprofile>dl>dd:nth-child(2) {
+    text-align: center;
+    margin-top: 9px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.postprofile dt {
+    line-height: 1.2em;
+    margin-left: 0px;
+}
+
+.postprofile {
+    background: #121212;
+    border-left: 9px solid#2b5a75;
+    margin-top: 0;
+    padding: 6px;
+    position: relative;
+    right: 5px;
+}
+
+div#profile-tab-field-profil dl dd a img {
+    width: 25px;
+    height: 25px;
+}
+
+h1.page-title {
+    color: #c6c6c6;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0.4em 0 4px 8px;
+    font-family: Montserrat;
+}
+
+.posting {
+    top: 11px;
+    left: 54px;
+    display: inline-block;
+    position: relative;
+}
+
+.postbody ul.profile-icons img,
+.quicklink-icon a img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.postbody {
+    background: #242424;
+    padding: 20px;
+}
+
+.postbody .content {
+    text-align: justify;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.postbody .h3 {
+    margin-top: 0;
+}
+
+.left-box {
+    margin-left: 8px;
+}
+
+.poster-list {
+    margin-left: 8px;
+}
+
+.topic-actions {
+    margin-left: 8px;
+}
+
+.buttons {
+    font-size: 18px;
+    text-transform: uppercase;
+}

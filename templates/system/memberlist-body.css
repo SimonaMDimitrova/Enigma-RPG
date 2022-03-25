@@ -1,0 +1,28 @@
+h1.solo {
+    font-family: Montserrat;
+    margin-left: 8px;
+    margin-bottom: 12px;
+}
+
+.forumbg-table,
+.filter-members,
+.messages-panel,
+.messages-forabg {
+    background: #242424;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.forumbg-table {
+    border-bottom: 4px solid #2b5a75;
+}
+
+.filter-members {
+    margin-bottom: -4px;
+    border-top: 2px solid #7b919e;
+}
+
+.quicklink-icon,
+.memberrow-posts {
+    text-align: center;
+}

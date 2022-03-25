@@ -1,0 +1,48 @@
+.messages-panel {
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.messages-panel div p {
+    margin-bottom: 0;
+}
+
+div.private-messages-actions>div>div>a>img {
+    width: 0;
+    height: 0;
+}
+
+div.private-messages-actions>div>div>a::before {
+    content: 'New ';
+    margin-left: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+div.private-messages-actions>div>div>a::after {
+    content: 'pm';
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#privmsgs-menu {
+    margin-top: 36px;
+}
+
+#privmsgs-menu li {
+    padding: 10px;
+}
+
+#privmsgs-menu li img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+#i_msg_outbox {
+    width: 20px!important;
+}
+
+#i_msg_savebox {
+    width: 18px!important;
+}

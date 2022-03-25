@@ -1,0 +1,206 @@
+/* main */
+
+.main {
+    padding-right: 30px;
+}
+
+#content-container div#container {
+    float: left;
+    margin-right: -3px;
+    width: 1213px;
+}
+
+#cp-main {
+    float: left;
+    background: #242424;
+    margin-left: -6px;
+    width: 98%;
+    padding: 5px;
+}
+
+
+/* logo */
+
+a#logo>img {
+    width: 100%;
+}
+
+.headerbar {
+    background-image: url(https://2img.net/i/fa/empty.gif);
+    background-repeat: repeat-x;
+    margin-bottom: 0;
+    padding: 0 0;
+}
+
+#logo {
+    float: none;
+    padding: 0;
+}
+
+
+/* linklist */
+
+.linklist {
+    padding: 0 10px;
+}
+
+
+/* menu */
+
+.navbar {
+    padding: 10px 0 0 0;
+    margin-bottom: -6px;
+}
+
+a.mainmenu[href="/faq"],
+a.mainmenu[href="/calendar"],
+a.mainmenu[href="/search"] {
+    display: none;
+}
+
+ul.navlinks {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.navlinks li {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+ul.navlinks li a {
+    color: #bababa;
+    transition: color 1s;
+}
+
+ul.navlinks li a:hover {
+    color: #46728c;
+}
+
+
+/* search box */
+
+#search-box,
+.search-box {
+    display: none;
+}
+
+
+/* widget */
+
+#left {
+    background: #232323;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.module {
+    padding: 0;
+    border-bottom: 2px solid #7b919e;
+}
+
+.module .h3 {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 4px solid #2b5a75;
+    padding-bottom: 16px;
+}
+
+.mod-login-avatar {
+    margin-top: -16px;
+}
+
+.mod-login-avatar {
+    width: 200px;
+}
+
+
+/* scroll */
+
+::-webkit-scrollbar {
+    background: #dfe0e3;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2c5b77;
+    width: 5px;
+}
+
+
+/* buttons */
+
+a.button1,
+a.button2,
+button.button2,
+input.button1,
+input.button2 {
+    background-color: #FAFAFA;
+    background-image: url(https://2img.net/i/fa/prosilver/bg_button.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+    color: #000;
+    overflow: visible;
+    padding: 2.5px 5px!important;
+    width: auto!important;
+    border-radius: 5%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* text editor */
+
+.sceditor-button {
+    height: 26px!important;
+    padding: 4px 5px!important;
+    width: 26px!important;
+}
+
+.div.sceditor-group {
+    padding: 5px;
+}
+
+
+/* tabs */
+
+#tabs .activetab a span {
+    color: #6e6e6e;
+}
+
+#tabs .activetab a:hover span {
+    background-position: 100% 0;
+    color: #4D7FA8;
+}
+
+#tabs {
+    line-height: normal;
+    margin: 20px 0 -1px 8px;
+}
+
+
+/* quotes code spoilers */
+
+blockquote {
+    border: 2px solid #2b5a75;
+}
+
+dl.codebox {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1em;
+    padding: 3px;
+}
+
+dl.codebox code {
+    color: #5c8db5;
+}
+
+
+/* inputs */
+
+.inputbox {
+    color: #919191;
+}
