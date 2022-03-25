@@ -1,7 +1,7 @@
 .messages ul.profile-icons {
     display: block;
     float: right;
-    height: 100%;
+    height: auto;
     list-style: none;
     margin-right: 0px;
     margin-top: 28px;
