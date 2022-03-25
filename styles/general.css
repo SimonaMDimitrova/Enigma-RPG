@@ -116,6 +116,10 @@ ul.navlinks li a:hover {
     width: 200px;
 }
 
+#left .module .inner table {
+    font-size: 12px;
+}
+
 
 /* scroll */
 
