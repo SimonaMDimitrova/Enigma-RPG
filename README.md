@@ -1,2 +1,4 @@
 # Enigma-RPG
-Soon to be added ...
+Enigma RPG forum skin
+
+[Skin preview](https://demo-rpg-forum1.forumotion.eu/)
